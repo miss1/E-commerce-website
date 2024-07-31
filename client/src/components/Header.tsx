@@ -44,7 +44,7 @@ const Header = () => {
             <h1 className="text-3xl text-white font-bold cursor-pointer" onClick={() => {navigate("/")}}>
               <span className="hidden lg:inline">Management </span>
               <span className="lg:hidden">M</span>
-              <span className="text-xs">Chuwa</span>
+              <span className="text-xs">TZ</span>
             </h1>
             {location.pathname === '/' && <Search className="hidden lg:block"/>}
           </div>
